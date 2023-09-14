@@ -41,7 +41,7 @@ h1 {
 }
 label {
   display: block;
-  color: var(--mainGrey);
+  color:rgb(131, 175, 200);
   font-size: 1rem;
   text-transform: capitalize;
 }
@@ -61,7 +61,7 @@ label {
 .btn {
   text-decoration: none;
   color: var(--mainWhite);
-  background-color: var(--primaryColor);
+  background-color:rgb(104, 137, 193);
   text-align: center;
   letter-spacing: 0.5px;
   font-size: 14px;

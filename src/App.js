@@ -30,6 +30,10 @@ function App() {
   const [amount,setAmount] = useState('');
   //alert
   const [alert,setAlert] = useState({show:false});
+  // //edit
+  // const [edit,setEdit] = useState(false);
+  // //edit item
+  // const [id,setId] = useState(0);
   //*********** functionality **********/
   const handleCharge = (e) =>{
     setCharge(e.target.value);
@@ -59,14 +63,31 @@ function App() {
       setAmount('');
     }else{
       //handle alert called
-      handleAlert({type:'danger',text:'값을 입력해주세요'})
+      handleAlert({type:'danger',text:'모든 항목을 채워 넣어주세요 !!'})
     }
   }
-
 
   console.log(expenses);
   //useState(initialExpenses) 0번째에는 Array, 1번째에는 function이 들어있음.
   
+  // clear all items
+  const clearItems = () => {
+    //console.log("cleared all items");
+    setExpenses([]);
+    handleAlert({type:'danger',text:'모든 항목이 삭제되었습니다 !!'})
+  };
+  //handle delete
+  const handleDelete = (id) => {
+    //console.log(`item deleted : ${id}`);
+    let tempExpenses = expenses.filter(item => 
+      item.id !==id);
+    setExpenses(tempExpenses);
+    handleAlert({type:'danger',text:'항목이 삭제되었습니다'})
+  }
+  // handle edit
+  const handleEdit = (id) => {
+    console.log(`item edited : ${id}`)
+  }
 
   return (
     <>
@@ -75,7 +96,7 @@ function App() {
       <h1>예산 계산기</h1>
       <main className='App'>
         <ExpenseForm charge={charge} amount={amount} handleCharge={handleCharge} handleAmount={handleAmount} handleSubmit={handleSubmit} />
-        <ExpenseList expenses={expenses} />
+        <ExpenseList expenses={expenses} handleDelete={handleDelete} handleEdit={handleEdit} clearItems={clearItems} />
       </main>
       <h1>총 지출 :  <span className='total'>
         {expenses.reduce((acc,curr)=>{

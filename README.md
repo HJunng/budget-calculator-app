@@ -5,7 +5,18 @@ Budget Calculator - PBL과제: 리액트를 이용해서 CRUD 앱 만들기
 
 <br><br>
 
-## F U N C T I O N
+## 📚 Stacks
+<div align=left>
+   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">  
+   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white">  
+   <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">  
+   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  
+   <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">  
+   
+</div>
+<br><br><br>
+
+## 🛠️ F U N C T I O N
 <br>
 
 <img width="600px" src="https://github.com/HJunng/budget-calculator-app/assets/56528404/30812415-f92c-4fa9-b04f-ff330d264bce">

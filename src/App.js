@@ -36,10 +36,10 @@ function App() {
         <ExpenseList expenses={expenses} />
       </main>
       <h1>총 지출 :  <span className='total'>
-        $ {expenses.reduce((acc,curr)=>{
+        {expenses.reduce((acc,curr)=>{
           return acc+=curr.amount;
         },0)}
-      </span> </h1>
+      </span> 원 </h1>
     </>
   );
 }

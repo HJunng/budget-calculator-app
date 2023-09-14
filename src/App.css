@@ -140,8 +140,6 @@ label {
 }
 .total {
   font-weight: 300;
-  color: var(--mainWhite);
-  background-color: var(--primaryColor);
   border-radius: 2px;
   padding: 2px 5px;
 }

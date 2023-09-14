@@ -8,7 +8,7 @@ import { v4 as uuid } from 'uuid';
 
 const initialExpenses = [
   {id:uuid(), charge:"식비", amount:5200},
-  {id:uuid(), charge:"휴대폰 요금", amount:30000},
+  {id:uuid(), charge:"휴대폰 요금", amount:25000},
   {id:uuid(), charge:"생활용품", amount:8000},
   
 ];

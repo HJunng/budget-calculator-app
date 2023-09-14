@@ -1,12 +1,14 @@
-# budget-calculator-app
+# 예산 계산기 App
 Budget Calculator - PBL과제: 리액트를 이용해서 CRUD 앱 만들기 
 <br><br>
 ![스크린샷 2023-09-14 오후 2 32 32](https://github.com/HJunng/budget-calculator-app/assets/56528404/34cd7df1-bdd8-49d8-98b8-8f2d1330d344)
 
 <br><br>
 
-## FUNCTION
+## F U N C T I O N
 <br>
+
+<img width="600px" src="https://github.com/HJunng/budget-calculator-app/assets/56528404/30812415-f92c-4fa9-b04f-ff330d264bce">
 
 <br>
 

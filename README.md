@@ -24,7 +24,7 @@ Budget Calculator - PBL과제: 리액트를 이용해서 CRUD 앱 만들기
 <br>
 
 1. **Create**: 데이터 생성
-   > 지출 항목이나 비용이 비어있을 경우: 에러 Alert! 
+   > 지출 항목이나 비용이 비어있을 경우: 에러 Alert!   
    > 
 
 2. **Read**: 데이터 읽기 -> Load: 보여주기까지
